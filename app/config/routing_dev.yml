@@ -31,13 +31,13 @@ _main:
     resource: routing.yml
 
 homepage:
-    pattern: /adictos
-    defaults: { _controller: MontesAdictosBundle:Default:index }
+    pattern: /devAddiction
+    defaults: { _controller: AlvarezDevAddictionBundle:Default:index }
 
 store:
-    pattern: /adictos/{store}
-    defaults: { _controller: MontesAdictosBundle:Store:store }
+    pattern: /devAddiction/{store}
+    defaults: { _controller: AlvarezDevAddictionBundle:Store:store }
 
 store_index:
-    pattern: /adictos/
-    defaults: { _controller: MontesAdictosBundle:Store:index }
+    pattern: /devAddiction/
+    defaults: { _controller: AlvarezDevAddictionBundle:Store:index }
